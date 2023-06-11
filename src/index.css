@@ -5,3 +5,7 @@
 body {
     @apply font-primary
 }
+
+.home-section-container {
+    @apply px-10 xl:px-24 max-w-[1440px] mx-auto w-full h-auto my-auto
+}

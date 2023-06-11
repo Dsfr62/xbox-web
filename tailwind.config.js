@@ -14,7 +14,9 @@ export default {
         "primary-light": "#9DFA9D",
         "secondary-dark": "#222422",
         "secondary-default": "#A2A6A2",
-        "secondary-light": "#F5FAF5"
+        "secondary-light": "#F5FAF5",
+        "third-default": "#52CC52",
+        "black-1": "#242424"
       },
       fontFamily: {
         "primary": ["Segoe UI", "system-ui", "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "sans-serif"]

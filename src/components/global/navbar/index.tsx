@@ -3,7 +3,7 @@ import { HiArrowRight } from "react-icons/hi"
 
 const Navbar = () => {
     return (
-        <div className="w-full h-20 flex justify-between px-2 xl:px-8 border-b border-secondary-light border-opacity-10">
+        <div className="w-full h-20 flex justify-between px-2 xl:px-8 border-b border-secondary-light border-opacity-10 max-w-[1440px] mx-auto">
             <div className="w-[20%] border-b-2 border-primary-default flex items-center pl-8 xl:pl-16">
                 <img src={navLogo} alt="xbox-img" className="cursor-pointer hover:animate-pulse ease-linear transition-all" />
             </div>
