@@ -10,8 +10,8 @@ const HomeThirdSection = () => {
                 foi projetado para jogos do presente, do passado e futuro, oferecendo a maior performance do mercado
             </p>
         </div>
-        <div className="home-section-container flex py-32 gap-24">
-            <div className="flex flex-col items-center w-[40%] gap-8">
+        <div className="home-section-container flex pt-32">
+            <div className="flex flex-col items-center w-[40%] gap-8 z-20 py-16">
                 <p className="home-third-section-text text-primary-dark text-center w-[60%]">FUTURO DOS JOGOS</p>
                 <p className="py-1.5 bg-third-default w-16 skew-x-[-20deg]"></p>
                 <button type="button"
@@ -19,7 +19,7 @@ const HomeThirdSection = () => {
                     Explore os consoles
                 </button>
             </div>
-            <div className="w-[70%]">
+            <div className="lg:w-[70%] xl: absolute right-0 z-10 mx-auto">
                 <img src={thirdImg} alt="img" />
             </div>
         </div>
